@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/FAQs/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/FAQs/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/camera-latency/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/camera-latency/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/deployment/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/deployment/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/getting-started/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/getting-started/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/metadata-processing/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/metadata-processing/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/usb-cameras/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/usb-cameras/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/user-manual/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/user-manual/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
     <url>
-         <loc>https://kontex-neuro.github.io/ThorVision/xdaq-metadata/</loc>
+         <loc>https://kontex-neuro.github.io/ThorVisionUserManual/xdaq-metadata/</loc>
          <lastmod>2025-12-01</lastmod>
     </url>
 </urlset>
