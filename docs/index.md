@@ -2,15 +2,12 @@
 
 <h1>
 <img src="favicon.png" alt="XDAQ Logo" width="128">
-<br>ThorVision
+<br>
+ThorVision
 </h1>
 
 <p align="center">
     A GUI app for seamless control and video capture from USB cameras on the <a href="https://www.kontex.io/xdaq">XDAQ AIO</a>.
-    <br />
-    <a href="https://github.com/kontex-neuro/ThorVision">Homepage</a>
-    |
-    <a href="https://kontex-neuro.github.io/ThorVision/">Documentation</a>
 </p>
 
 </div>
