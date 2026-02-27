@@ -76,7 +76,7 @@ Display the list and number of currently connected cameras. Select a camera from
 
 ### **2. Overall Recording Settings & Control**
 
-Saving Options: Choose between:
+Saving Options: Choose between
 
 - **Continuous:** Record a single, uninterrupted video file for the entire recording session.
 - **Split Record:** Record multiple video files, each divided into predefined segments (e.g., 5 seconds, 10 seconds).
@@ -129,25 +129,6 @@ Click to display live metadata and configured recording settings from cameras on
 
 ## Setup Guide
 
-### **Pre-Launch Checklist**
-
-1. Ensure a Thunderbolt 3.0 (or higher) cable connects the [XDAQ AIO](https://www.kontex.io/xdaq) and the computer. 
-2. Verify that the connectors are firmly seated.
-3. Confirm all cameras are firmly connected to the [XDAQ AIO](https://www.kontex.io/xdaq).
-4. Connect a [Brainwave simulator](https://www.kontex.io/product/Brainwave-Simulator) to the [XDAQ AIO](https://www.kontex.io/xdaq) using a 3.5mm jack to BNC wire.
-5. Connect the 3.5mm Jack to the "Pulse" port on the [Brainwave simulator](https://www.kontex.io/product/Brainwave-Simulator).
-6. Connect the BNC to the Digital In port on the front panel of the [XDAQ AIO](https://www.kontex.io/xdaq).
-
-### **Launch Sequence**
-
-Follow this exact order:
-
-1. Power on [XDAQ AIO](https://www.kontex.io/xdaq).
-2. Launch [Open Ephys GUI](https://open-ephys.org/gui) or [XDAQ-RHX](https://github.com/kontex-neuro/Intan-RHX) first.
-3. Wait until the chosen application finishes its initialization.
-4. Launch ThorVision.
-5. Allow 1–2 minutes for ThorVision to connect.
-6. If the connection fails, retry the entire [launch sequence](#launch-sequence) from the start.
 
 ### **Camera Setup**
 
@@ -165,11 +146,7 @@ Follow this exact order:
 * If the camera-naming function behaves abnormally, restart the ThorVision interface and try again.
 ///
 
-/// warning | IMPORTANT
-- Do **NOT** assign the same name to different cameras. This can cause file overwrites during recording sessions.
 
-- Do **NOT** change `Quality` / `Codec` once the preview has started. This can cause the camera to freeze.
-///
 
 <div class="center-block">
   <img src="../camera-setup-2.png" alt="Camera Setup 2">
