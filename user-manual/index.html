@@ -671,28 +671,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pre-launch-checklist" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pre-Launch Checklist
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#launch-sequence" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Launch Sequence
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#camera-setup" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1127,28 +1105,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pre-launch-checklist" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pre-Launch Checklist
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#launch-sequence" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Launch Sequence
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#camera-setup" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1272,7 +1228,7 @@
 <h3 id="1-camera-status"><strong>1. Camera Status</strong></h3>
 <p>Display the list and number of currently connected cameras. Select a camera from the list to access its settings in the <a href="#4-camera-specification-panel">Camera Specification Panel</a>. </p>
 <h3 id="2-overall-recording-settings-control"><strong>2. Overall Recording Settings &amp; Control</strong></h3>
-<p>Saving Options: Choose between:</p>
+<p>Saving Options: Choose between</p>
 <ul>
 <li><strong>Continuous:</strong> Record a single, uninterrupted video file for the entire recording session.</li>
 <li><strong>Split Record:</strong> Record multiple video files, each divided into predefined segments (e.g., 5 seconds, 10 seconds).</li>
@@ -1308,25 +1264,6 @@
 <p>Click to display live metadata and configured recording settings from cameras on the <a href="https://www.kontex.io/xdaq">XDAQ AIO</a>.</p>
 <hr />
 <h2 id="setup-guide">Setup Guide</h2>
-<h3 id="pre-launch-checklist"><strong>Pre-Launch Checklist</strong></h3>
-<ol>
-<li>Ensure a Thunderbolt 3.0 (or higher) cable connects the <a href="https://www.kontex.io/xdaq">XDAQ AIO</a> and the computer. </li>
-<li>Verify that the connectors are firmly seated.</li>
-<li>Confirm all cameras are firmly connected to the <a href="https://www.kontex.io/xdaq">XDAQ AIO</a>.</li>
-<li>Connect a <a href="https://www.kontex.io/product/Brainwave-Simulator">Brainwave simulator</a> to the <a href="https://www.kontex.io/xdaq">XDAQ AIO</a> using a 3.5mm jack to BNC wire.</li>
-<li>Connect the 3.5mm Jack to the "Pulse" port on the <a href="https://www.kontex.io/product/Brainwave-Simulator">Brainwave simulator</a>.</li>
-<li>Connect the BNC to the Digital In port on the front panel of the <a href="https://www.kontex.io/xdaq">XDAQ AIO</a>.</li>
-</ol>
-<h3 id="launch-sequence"><strong>Launch Sequence</strong></h3>
-<p>Follow this exact order:</p>
-<ol>
-<li>Power on <a href="https://www.kontex.io/xdaq">XDAQ AIO</a>.</li>
-<li>Launch <a href="https://open-ephys.org/gui">Open Ephys GUI</a> or <a href="https://github.com/kontex-neuro/Intan-RHX">XDAQ-RHX</a> first.</li>
-<li>Wait until the chosen application finishes its initialization.</li>
-<li>Launch ThorVision.</li>
-<li>Allow 1–2 minutes for ThorVision to connect.</li>
-<li>If the connection fails, retry the entire <a href="#launch-sequence">launch sequence</a> from the start.</li>
-</ol>
 <h3 id="camera-setup"><strong>Camera Setup</strong></h3>
 <ol>
 <li>
@@ -1348,17 +1285,6 @@
 </li>
 <li>
 <p>If the camera-naming function behaves abnormally, restart the ThorVision interface and try again.</p>
-</li>
-</ul>
-</div>
-<div class="admonition warning">
-<p class="admonition-title">IMPORTANT</p>
-<ul>
-<li>
-<p>Do <strong>NOT</strong> assign the same name to different cameras. This can cause file overwrites during recording sessions.</p>
-</li>
-<li>
-<p>Do <strong>NOT</strong> change <code>Quality</code> / <code>Codec</code> once the preview has started. This can cause the camera to freeze.</p>
 </li>
 </ul>
 </div>
