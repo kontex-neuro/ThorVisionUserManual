@@ -57,7 +57,7 @@ nav:
       - XDAQ Metadata: xdaq-metadata.md
       - USB Cameras: usb-cameras.md
       - Camera Latency: camera-latency.md
-  - Metadata Processing:
+  #- Metadata Processing:
       - metadata-processing.md
   - FAQs: FAQs.md
 
